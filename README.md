@@ -22,6 +22,7 @@ Included:
 # How to install?
 
 You can install this application to test on your android smartphone. To download the signed application go to your chrome browser and copy-paste the download link:
+https://github.com/takitamim/BloodBank_CSE2100/blob/master/app-release.apk
 
 Download will be started automatically. After then install it on your android device.
 Open the application, create an account. That's it.
