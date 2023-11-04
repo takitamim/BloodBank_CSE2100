@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/donorNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="Donor's Name"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/donorAddressTextView"
+        android:layout_below="@id/donorNameTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/donorContactTextView"
+        android:layout_below="@id/donorAddressTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/donorTotalDonateTextView"
+        android:layout_below="@id/donorContactTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Donations: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/donorLastDonateTextView"
+        android:layout_below="@id/donorTotalDonateTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Donation: "
+        android:textSize="16sp" />
+
+    <!-- Add more TextViews and other views as needed -->
+
+</RelativeLayout>

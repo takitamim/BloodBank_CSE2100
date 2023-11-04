@@ -30,13 +30,6 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.Calendar;
 import java.util.TimeZone;
 
-/***
- Project Name: BloodBank
- Project Date: 10/12/18
- Created by: imshakil
- Email: mhshakil_ice_iu@yahoo.com
- ***/
-
 public class AchievmentsView extends Fragment {
 
     private int cur_day, cur_month, cur_year, day, month, year, totday;
@@ -164,9 +157,9 @@ public class AchievmentsView extends Fragment {
                                                 yesno.setVisibility(View.VISIBLE);
 
                                                 yes = view.findViewById(R.id.btnYes);
-                                               cur_day = calendar.get(Calendar.DAY_OF_MONTH);
-                                               cur_month = calendar.get(Calendar.MONTH)+1;
-                                               cur_year = calendar.get(Calendar.YEAR);
+                                                cur_day = calendar.get(Calendar.DAY_OF_MONTH);
+                                                cur_month = calendar.get(Calendar.MONTH)+1;
+                                                cur_year = calendar.get(Calendar.YEAR);
 
                                                 yes.setOnClickListener(new View.OnClickListener() {
                                                     @Override

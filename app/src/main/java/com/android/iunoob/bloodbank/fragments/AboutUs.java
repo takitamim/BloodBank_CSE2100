@@ -1,4 +1,4 @@
-package com.android.iunoob.bloodbank.fragments;
+/*package com.android.iunoob.bloodbank.fragments;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -25,4 +25,4 @@ public class AboutUs extends Fragment {
         Linkify.addLinks(textView, Linkify.ALL);
         return  view;
     }
-}
+}    */

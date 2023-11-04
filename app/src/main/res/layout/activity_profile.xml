@@ -53,7 +53,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Sex:" />
+                android:text="Gender:" />
 
             <Spinner
                 android:layout_marginLeft="67dp"
@@ -86,43 +86,43 @@
 
             </Spinner>
         </LinearLayout>
-    <LinearLayout
-        android:padding="3dp"
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Contact No:" />
-        <EditText
-            android:layout_marginLeft="20dp"
-            android:id="@+id/inputMobile"
+        <LinearLayout
+            android:padding="3dp"
+            android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/mobile"
-            android:inputType="text"
-            android:textColor="@android:color/white" />
-    </LinearLayout>
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact No:" />
+            <EditText
+                android:layout_marginLeft="20dp"
+                android:id="@+id/inputMobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/mobile"
+                android:inputType="text"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
 
-    <LinearLayout
-        android:padding="3dp"
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Address:" />
-        <EditText
-            android:layout_marginLeft="40dp"
-            android:id="@+id/inputAddress"
+        <LinearLayout
+            android:padding="3dp"
+            android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/userAddress"
-            android:inputType="text"
-            android:textColor="@android:color/white" />
-    </LinearLayout>
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address:" />
+            <EditText
+                android:layout_marginLeft="40dp"
+                android:id="@+id/inputAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/userAddress"
+                android:inputType="text"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
 
         <LinearLayout
             android:padding="3dp"
