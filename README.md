@@ -18,6 +18,11 @@ Included:
 - Android Studio IDE
 - Android version 4.0 or later
 - Android SDK 17-28
+
+#User Manual:
+Download and notice from here: app/Project Report_2003002.pdf
+
+
   
 # How to install?
 
